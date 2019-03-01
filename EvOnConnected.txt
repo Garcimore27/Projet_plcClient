@@ -1,0 +1,5 @@
+private void plcClient_OnConnected()
+        {
+            this.label_PLC.BackColor = Color.Green;
+            this.label_UID.Text = this.plcClient.UID;
+        }
