@@ -1,4 +1,4 @@
 private void plcClient_OnDisconnected()
         {
-            this.label_PLC.BackColor = Color.Red;
+            this.label_PLC.BackColor = Color.White;
         }
